@@ -1,11 +1,13 @@
 'use client';
-import { useRouter, useParams } from 'next/navigation';
+import { useRouter, useParams, useSearchParams, usePathname } from 'next/navigation';
 
 const ProgramPage = () => {
     const router = useRouter();
     const params = useParams();
+    const searchParams = useSearchParams();
+    const pathname = usePathname();
     return ( 
-    <div>Page Id {params.id}</div> 
+    <div>Page Id {pathname}</div> 
     );
 }
  
