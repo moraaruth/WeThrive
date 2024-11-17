@@ -1,7 +1,5 @@
-const ProgramPage = ({ params: any }) => {
-    const {id } = params;
-
-    return ( <div>Page Id {id }</div> 
+const ProgramPage = () => {
+      return ( <div>Page Id </div> 
     );
 }
  
