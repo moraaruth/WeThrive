@@ -1,13 +1,7 @@
-'use client';
-import { useRouter, useParams, useSearchParams, usePathname } from 'next/navigation';
+const ProgramPage = ({ params: any }) => {
+    const {id } = params;
 
-const ProgramPage = () => {
-    const router = useRouter();
-    const params = useParams();
-    const searchParams = useSearchParams();
-    const pathname = usePathname();
-    return ( 
-    <div>Page Id {pathname}</div> 
+    return ( <div>Page Id {id }</div> 
     );
 }
  
