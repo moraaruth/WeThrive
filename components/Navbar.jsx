@@ -75,11 +75,23 @@ const Navbar = () => {
                 <Link
                   href="/programs.html"
                   className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
-                  >Programs</Link>
-                <Link
+                  >Programs/Services</Link>
+                   <Link
+                  href="/programs.html"
+                  className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Get Involved</Link>
+                   <Link
+                  href="/programs.html"
+                  className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Blog</Link>
+                   <Link
+                  href="/programs.html"
+                  className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Contact Us</Link>
+                {/* <Link
                   href="/add-property.html"
                   className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
-                  >Add Property</Link>
+                  >Add Property</Link> */}
               </div>
             </div>
           </div>
