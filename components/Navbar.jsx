@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import logo from "@/assets/images/logo-white.png";
 import profileDefault from "@/assets/images/profile.png";
 
@@ -47,13 +48,13 @@ const Navbar = () => {
           >
             {/* <!-- Logo --> */}
             <Link className="flex flex-shrink-0 items-center" href="/index.html">
-              {/* <img
+              <Image
                 className="h-10 w-auto"
-                src="img/logo-white.png"
+                src={ logo }
                 alt="We Thrive"
                 width="150"
                 height="150"
-              /> */}
+              />
 
               <span className="hidden md:block text-white text-2xl font-bold ml-2"
                 >We Thrive</span
@@ -155,11 +156,11 @@ const Navbar = () => {
                 >
                   <span className="absolute -inset-1.5"></span>
                   <span className="sr-only">Open user menu</span>
-                  {/* <img
+                  <Image
                     className="h-8 w-8 rounded-full"
-                    src="img/profile.png"
+                    src={ profileDefault }
                     alt=""
-                  /> */}
+                  />
                 </button>
               </div>
 
