@@ -48,13 +48,13 @@ const Navbar = () => {
               {/* <img
                 className="h-10 w-auto"
                 src="img/logo-white.png"
-                alt="PropertyPulse"
+                alt="We Thrive"
                 width="150"
                 height="150"
               /> */}
 
               <span className="hidden md:block text-white text-2xl font-bold ml-2"
-                >PropertyPulse</span
+                >We Thrive</span
               >
             </Link>
             {/* <!-- Desktop Menu Hidden below md screens --> */}
