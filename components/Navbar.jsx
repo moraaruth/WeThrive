@@ -64,6 +64,10 @@ const Navbar = () => {
                   href="/index.html"
                   className="text-white bg-black hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                   >Home</Link>
+                    <Link
+                  href="/programs.html"
+                  className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >About Us</Link>
                 <Link
                   href="/programs.html"
                   className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
