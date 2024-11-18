@@ -147,7 +147,7 @@ const Navbar = () => {
               </span>
             </a>
             {/* <!-- Profile dropdown button --> */}
-            <div className="relative ml-3">
+            <div className="relative ml-1">
               <div>
                 <button
                   type="button"
