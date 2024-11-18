@@ -4,7 +4,7 @@ const Navbar = () => {
     // authentication
     // dropdown
     //google imgimg
-    // number of imgimgs
+    // number ="img
     // hamburger menu
     // active links
     return ( 
@@ -45,13 +45,13 @@ const Navbar = () => {
           >
             {/* <!-- Logo --> */}
             <Link className="flex flex-shrink-0 items-center" href="/index.html">
-              <img
+              {/* <img
                 className="h-10 w-auto"
-                src="imgimgs/logo-white.png"
+                src="img/logo-white.png"
                 alt="PropertyPulse"
                 width="150"
                 height="150"
-              />
+              /> */}
 
               <span className="hidden md:block text-white text-2xl font-bold ml-2"
                 >PropertyPulse</span
@@ -133,11 +133,11 @@ const Navbar = () => {
                 >
                   <span className="absolute -inset-1.5"></span>
                   <span className="sr-only">Open user menu</span>
-                  <img
+                  {/* <img
                     className="h-8 w-8 rounded-full"
-                    src="/imgimgs/profile.png"
+                    src="img/profile.png"
                     alt=""
-                  />
+                  /> */}
                 </button>
               </div>
 
