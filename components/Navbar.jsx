@@ -208,14 +208,38 @@ const Navbar = () => {
             href="/"
             className="bg-black text-white block rounded-md px-3 py-2 text-base font-medium"
             >Home</Link>
+            <Link
+            href="/aboutus"
+            className="text-white block rounded-md px-3 py-2 text-base font-medium"
+            >About us</Link>
+            <Link
+            href="/resources"
+            className="text-white block rounded-md px-3 py-2 text-base font-medium"
+            >Resources</Link>
+            <Link
+            href="/services"
+            className="text-white block rounded-md px-3 py-2 text-base font-medium"
+            >Services</Link>
+                     <Link
+            href="/getinvolved"
+            className="text-white block rounded-md px-3 py-2 text-base font-medium"
+            >Get Involved</Link>
+                     <Link
+            href="/blog"
+            className="text-white block rounded-md px-3 py-2 text-base font-medium"
+            >Blog</Link>
+                     <Link
+            href="/contactus"
+            className="text-white block rounded-md px-3 py-2 text-base font-medium"
+            >Contact Us</Link>
           <Link
-            href="/programs.html"
+            href="/programs"
             className="text-white block rounded-md px-3 py-2 text-base font-medium"
             >Programs</Link>
-          <Link
+          {/* <Link
             href="/add-property.html"
             className="text-white block rounded-md px-3 py-2 text-base font-medium"
-            >Add Property</Link>
+            >Add Property</Link> */}
           <button
             className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 my-5"
           >
