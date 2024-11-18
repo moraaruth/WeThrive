@@ -1,4 +1,6 @@
 import Link from "next/link";
+import logo from "@/assets/images/logo-white.png";
+import profileDefault from "@/assets/images/profile.png";
 
 const Navbar = () => {
     // authentication
