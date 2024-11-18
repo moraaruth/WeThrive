@@ -64,31 +64,31 @@ const Navbar = () => {
             <div className="hidden md:ml-6 md:block">
               <div className="flex space-x-2">
                 <Link
-                  href="/index.html"
+                  href="/"
                   className="text-white bg-black hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                   >Home</Link>
                     <Link
-                  href="/programs.html"
+                  href="/aboutus"
                   className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                   >About Us</Link>
                     <Link
-                  href="/programs.html"
+                  href="/resources"
                   className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                   >Resources</Link>
                 <Link
-                  href="/programs.html"
+                  href="/programs"
                   className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                   >Programs/Services</Link>
                    <Link
-                  href="/programs.html"
+                  href="/getinvolved"
                   className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                   >Get Involved</Link>
                    <Link
-                  href="/programs.html"
+                  href="/blog"
                   className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                   >Blog</Link>
                    <Link
-                  href="/programs.html"
+                  href="/contactus"
                   className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                   >Contact Us</Link>
                 {/* <Link
@@ -174,14 +174,14 @@ const Navbar = () => {
                 tabIndex="-1"
               >
                 <Link
-                  href="/profile.html"
+                  href="/profile"
                   className="block px-4 py-2 text-sm text-gray-700"
                   role="menuitem"
                   I="-1"
                   id="user-menu-item-0"
                   >Your Profile</Link>
                 <Link
-                  href="/saved-programs.html"
+                  href="/savedprograms"
                   className="block px-4 py-2 text-sm text-gray-700"
                   role="menuitem"
                   I="-1"
@@ -205,7 +205,7 @@ const Navbar = () => {
       <div className="hidden" id="mobile-menu">
         <div className="space-y-1 px-2 pb-3 pt-2">
           <Link
-            href="/index.html"
+            href="/"
             className="bg-black text-white block rounded-md px-3 py-2 text-base font-medium"
             >Home</Link>
           <Link
