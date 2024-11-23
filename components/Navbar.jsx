@@ -8,8 +8,10 @@ import profileDefault from '@/assets/images/profile.png'
 import { FaGoogle } from 'react-icons/fa'
 
 const Navbar = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-  const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
+
+  const pathname = usePathname();
   // authentication
   // dropdown
   //google imgimg
