@@ -8,6 +8,7 @@ import { FaGoogle } from 'react-icons/fa'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [siProfileMenuOpen, setIsProfileMenuOpen]  = useState(false);
     // authentication
     // dropdown
     //google imgimg
