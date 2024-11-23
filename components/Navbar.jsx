@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { usePathname } from 'next/navigation'
 import logo from '@/assets/images/logo-white.png'
 import profileDefault from '@/assets/images/profile.png'
 import { FaGoogle } from 'react-icons/fa'
