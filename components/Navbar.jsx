@@ -234,50 +234,50 @@ const Navbar = () => {
             <div className="space-y-1 px-2 pb-3 pt-2">
               <Link
                 href="/"
-                className={`${pathname === '/' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                className={`${pathname === '/' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
                 >
                 Home
               </Link>
               <Link
                 href="/aboutus"
-                className={`${pathname === '/aboutus' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
-                >
+                className={`${pathname === '/aboutus' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
+              >
                 About us
               </Link>
               <Link
                 href="/resources"
-                className={`${pathname === '/resources' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
-                >
+                className="text-white block rounded-md px-3 py-2 text-base font-medium"
+              >
                 Resources
               </Link>
               <Link
                 href="/services"
-                className={`${pathname === '/services' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
-                >
+                className="text-white block rounded-md px-3 py-2 text-base font-medium"
+              >
                 Services
               </Link>
               <Link
                 href="/getinvolved"
-                className={`${pathname === '/getinvolved' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
-                >
+                className="text-white block rounded-md px-3 py-2 text-base font-medium"
+              >
                 Get Involved
               </Link>
               <Link
                 href="/blog"
-                className={`${pathname === '/blog' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
-                >
+                className="text-white block rounded-md px-3 py-2 text-base font-medium"
+              >
                 Blog
               </Link>
               <Link
                 href="/contactus"
-                className={`${pathname === '/contactus' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
-                >
+                className="text-white block rounded-md px-3 py-2 text-base font-medium"
+              >
                 Contact Us
               </Link>
               <Link
                 href="/programs"
-                className={`${pathname === '/programs' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
-                >
+                className="text-white block rounded-md px-3 py-2 text-base font-medium"
+              >
                 Programs
               </Link>
               {/* <Link
