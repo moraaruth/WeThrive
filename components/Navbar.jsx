@@ -246,37 +246,37 @@ const Navbar = () => {
               </Link>
               <Link
                 href="/resources"
-                className="text-white block rounded-md px-3 py-2 text-base font-medium"
+                className={`${pathname === '/resources' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
               >
                 Resources
               </Link>
               <Link
                 href="/services"
-                className="text-white block rounded-md px-3 py-2 text-base font-medium"
+                className={`${pathname === '/services' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
               >
                 Services
               </Link>
               <Link
                 href="/getinvolved"
-                className="text-white block rounded-md px-3 py-2 text-base font-medium"
+                className={`${pathname === '/getinvolved' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
               >
                 Get Involved
               </Link>
               <Link
                 href="/blog"
-                className="text-white block rounded-md px-3 py-2 text-base font-medium"
+                className={`${pathname === '/blog' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
               >
                 Blog
               </Link>
               <Link
                 href="/contactus"
-                className="text-white block rounded-md px-3 py-2 text-base font-medium"
+                className={`${pathname === '/contactus' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
               >
                 Contact Us
               </Link>
               <Link
                 href="/programs"
-                className="text-white block rounded-md px-3 py-2 text-base font-medium"
+                className={`${pathname === '/programs' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
               >
                 Programs
               </Link>
