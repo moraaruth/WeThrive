@@ -138,6 +138,8 @@ const [isLoggedIn, setIsLoggedIn] = useState(false)
               )}
 
             {/* <!-- Right Side Menu (Logged In) --> */}
+            {
+              isLoggedIn && (
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 md:static md:inset-auto md:ml-6 md:pr-0">
               <a href="messages.html" className="relative group">
                 <button
@@ -228,6 +230,7 @@ const [isLoggedIn, setIsLoggedIn] = useState(false)
                 )}
               </div>
             </div>
+              )}
           </div>
         </div>
 
