@@ -124,6 +124,8 @@ const [isLoggedIn, setIsLoggedIn] = useState(false)
             </div>
 
             {/* <!-- Right Side Menu (Logged Out) --> */}
+            {
+              !isLoggedIn && (            
             <div className="hidden md:block md:ml-6">
               <div className="flex items-center">
                 <button className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2">
@@ -133,6 +135,7 @@ const [isLoggedIn, setIsLoggedIn] = useState(false)
                 </button>
               </div>
             </div>
+              )}
 
             {/* <!-- Right Side Menu (Logged In) --> */}
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 md:static md:inset-auto md:ml-6 md:pr-0">
