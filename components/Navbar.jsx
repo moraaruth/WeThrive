@@ -110,6 +110,12 @@ const [isLoggedIn, setIsLoggedIn] = useState(false)
                     Blog
                   </Link>
                   <Link
+                    href="/add"
+                    className={`${pathname === '/add' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                  >
+                    Add
+                  </Link>
+                  <Link
                     href="/contactus"
                     className={`${pathname === '/contactus' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
                   >
@@ -273,6 +279,12 @@ const [isLoggedIn, setIsLoggedIn] = useState(false)
                 className={`${pathname === '/blog' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
               >
                 Blog
+              </Link>
+              <Link
+                href="/add"
+                className={`${pathname === '/add' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
+              >
+                Add
               </Link>
               <Link
                 href="/contactus"
