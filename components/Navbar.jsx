@@ -302,10 +302,13 @@ const [isLoggedIn, setIsLoggedIn] = useState(false)
             href="/add-property.html"
             className="text-white block rounded-md px-3 py-2 text-base font-medium"
             >Add Property</Link> */}
+            {
+              !isLoggedIn && (
               <button className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 my-5">
                 <i className="fa-brands fa-google mr-2"></i>
                 <span>Login or Register</span>
               </button>
+              )}
             </div>
           </div>
         )}
