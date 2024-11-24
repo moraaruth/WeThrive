@@ -234,8 +234,8 @@ const Navbar = () => {
             <div className="space-y-1 px-2 pb-3 pt-2">
               <Link
                 href="/"
-                className="bg-black text-white block rounded-md px-3 py-2 text-base font-medium"
-              >
+                className={`${pathname === '/' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                >
                 Home
               </Link>
               <Link
