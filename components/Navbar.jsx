@@ -280,12 +280,15 @@ const [isLoggedIn, setIsLoggedIn] = useState(false)
               >
                 Blog
               </Link>
+              {
+                isLoggedIn && (
               <Link
                 href="/add"
                 className={`${pathname === '/add' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
               >
                 Add
               </Link>
+                )}
               <Link
                 href="/contactus"
                 className={`${pathname === '/contactus' ? "bg-black" : ""} text-white block rounded-md px-3 py-2 text-base font-medium`}
