@@ -3,6 +3,7 @@ import Image from "next/image";
 import logo from "@/assets/images/logo.png"
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear()
     return ( 
         <footer className="bg-gray-200 py-4 mt-24">
         <div
@@ -25,7 +26,7 @@ const Footer = () => {
           </div>
           <div>
             <p className="text-sm text-gray-500 mt-2 md:mt-0">
-              &copy; 2024 wethrive. All rights reserved.
+              &copy; {currentYear} wethrive. All rights reserved.
             </p>
           </div>
         </div>
