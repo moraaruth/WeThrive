@@ -1,3 +1,4 @@
+import Link from "next/link";
 const InfoBox = ({ 
     heading, 
     children,
@@ -10,12 +11,12 @@ const InfoBox = ({
         <p className={`${textColor} mt-2 mb-4`}>
        {children}
         </p>
-        <a
-          href="/properties.html"
+        <Link
+          href="/therapist"
           className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
         >
           Book therapist
-        </a>
+        </Link>
       </div>
      );
 }
