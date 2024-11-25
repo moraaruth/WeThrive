@@ -9,7 +9,8 @@ heading="Therapist"
 buttonInfo=
 {{ 
     text: 'Find a Therapist',
-    link: '/therapist'
+    link: '/therapist',
+    backgroundColor: 'bg-black'
     }}
     > Find a therapist around you. Bookmark therapist and contact.</InfoBox>
 <InfoBox heading="Therapy session" buttonInfo={{ text: 'Book a Session'}} backgroundColor="bg-blue-100"> Check the available therapy sessions and book.</InfoBox>
