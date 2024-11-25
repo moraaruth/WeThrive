@@ -4,7 +4,14 @@ const InfoBoxes = () => {
         <section>
         <div className="container-xl lg:container m-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
-<InfoBox heading="Therapist" buttonInfo={{ text: 'Find a Therapist'}}> Find a therapist around you. Bookmark therapist and contact.</InfoBox>
+<InfoBox 
+heading="Therapist" 
+buttonInfo=
+{{ 
+    text: 'Find a Therapist',
+    link: '/therapist'
+    }}
+    > Find a therapist around you. Bookmark therapist and contact.</InfoBox>
 <InfoBox heading="Therapy session" buttonInfo={{ text: 'Book a Session'}} backgroundColor="bg-blue-100"> Check the available therapy sessions and book.</InfoBox>
 
             
