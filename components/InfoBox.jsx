@@ -3,6 +3,7 @@ const InfoBox = ({
     heading, 
     children,
     backgroundColor = "bg-gray-100",
+    buttonInfo,
     textColor = "text-gray-800"
  }) => {
     return ( 
