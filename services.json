@@ -5,7 +5,7 @@
       "type": "Hyperactivity",
       "description": "This is helps a child calm down and relax",
       "location": {
-        "street": "KISE",
+        "constituency": "KISE",
         "city": "Nairobi"
      
       },
@@ -30,7 +30,7 @@
         "type": "Speech and vocabulary",
         "description": "This is helps a child learn new words and express himself or herself",
         "location": {
-          "street": "Gertrudes",
+          "constituency": "Donholm",
           "city": "Nairobi"
        
         },
@@ -55,7 +55,7 @@
         "type": "Fine motor skills and concentration",
         "description": "This is helps a child improve in fine motor skills and concentration",
         "location": {
-          "street": "Gertrudes",
+          "constituency": "Donholm",
           "city": "Nairobi"
        
         },
@@ -80,7 +80,7 @@
         "type": "stability",
         "description": "This is helps a child learn how to walk, sit and have strong bones",
         "location": {
-          "street": "KISE",
+          "constituency": "KISE",
           "city": "Nairobi"
        
         },
