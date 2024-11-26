@@ -5,8 +5,11 @@ const ServiceCard = ({service}) => {
     return ( 
         <div className="rounded-xl shadow-md relative">
         <Image
-          src={`images/services/${service.images[0]}`}
+          src={`/images/services/${service.images[0]}`}
           alt=""
+          width={120}
+          height={120}
+          sizes='100vw'
           className="w-full h-auto rounded-t-xl"
         />
         <div className="p-4">
