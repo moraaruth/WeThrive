@@ -1,0 +1,36 @@
+[
+    {
+      "blog": "1",
+      "name": "Parent",
+      "type": "Hyperactivity",
+      "description": "This is helps a child calm down and relax",
+          "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+      "is_featured": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+        "blog": "2",
+        "name": "Therapist ",
+        "type": "Hyperactivity",
+        "description": "This is helps a child calm down and relax",
+            "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+        "is_featured": false,
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "blog": "3",
+        "name": "Educator",
+        "type": "Hyperactivity",
+        "description": "This is helps a child calm down and relax",
+            "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+        "is_featured": false,
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      }
+      
+      
+
+    
+  ]
