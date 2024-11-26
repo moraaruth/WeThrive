@@ -92,7 +92,7 @@ const [isLoggedIn, setIsLoggedIn] = useState(false)
                     Resources
                   </Link>
                   <Link
-                    href="/programs"
+                    href="/services"
                     className={`${pathname === '/programs' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
                   >
                     Services
