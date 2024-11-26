@@ -49,13 +49,14 @@
         "createdAt": "2024-01-01T00:00:00.000Z",
         "updatedAt": "2024-01-01T00:00:00.000Z"
       },
+    
       {
         "service": "3",
-        "name": "Occupational therapy",
-        "type": "Fine motor skills and concentration",
-        "description": "This is helps a child improve in fine motor skills and concentration",
+        "name": "Physiotherapy",
+        "type": "stability",
+        "description": "This is helps a child learn how to walk, sit and have strong bones",
         "location": {
-          "constituency": "Donholm",
+          "constituency": "KISE",
           "city": "Nairobi"
        
         },
@@ -76,11 +77,11 @@
       },
       {
         "service": "4",
-        "name": "Physiotherapy",
-        "type": "stability",
-        "description": "This is helps a child learn how to walk, sit and have strong bones",
+        "name": "Occupational therapy",
+        "type": "Fine motor skills",
+        "description": "This is helps a child improve in fine motor skills and concentration",
         "location": {
-          "constituency": "KISE",
+          "constituency": "Donholm",
           "city": "Nairobi"
        
         },
