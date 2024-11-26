@@ -17,17 +17,7 @@ const Services = () => {
         )}
       </div>
 
-      <div className="container-xl lg:container m-auto px-4 py-6">
-        {blogs.length === 0 ? (
-          <p>No blog found</p>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {blogs.map((blog) => (
-              <BlogCard  key={blog._id} blog={blog}/>
-            ))}
-          </div>
-        )}
-      </div>
+      
     </section>
   )
 }

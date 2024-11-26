@@ -1,0 +1,33 @@
+[
+    {
+      "blog": "0",
+      "name": "What is autism",
+      "type": "Awareness and Education",
+      "description": "Explains autism spectrum disorder, its characteristics, and how it impacts individuals in various ways.",
+      "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+      "is_featured": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "blog": "1",
+      "name": "Signs of autism",
+      "type": "Early Indicators",
+      "description": "Highlights common signs and behaviors that may indicate autism in children and adults.",
+      "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+      "is_featured": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "blog": "2",
+      "name": "Newly diagnosed",
+      "type": "Guidance and Support",
+      "description": "Provides advice and resources for individuals and families navigating an autism diagnosis.",
+      "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+      "is_featured": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ]
+  
