@@ -1,36 +1,32 @@
 [
-    {
-      "blog": "0",
-      "name": "Parent",
-      "type": "Hyperactivity",
-      "description": "This is helps a child calm down and relax",
-          "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
-      "is_featured": false,
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-        "blog": "1",
-        "name": "Therapist ",
-        "type": "Hyperactivity",
-        "description": "This is helps a child calm down and relax",
-            "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
-        "is_featured": false,
-        "createdAt": "2024-01-01T00:00:00.000Z",
-        "updatedAt": "2024-01-01T00:00:00.000Z"
-      },
-      {
-        "blog": "2",
-        "name": "Educator",
-        "type": "Hyperactivity",
-        "description": "This is helps a child calm down and relax",
-            "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
-        "is_featured": false,
-        "createdAt": "2024-01-01T00:00:00.000Z",
-        "updatedAt": "2024-01-01T00:00:00.000Z"
-      }
-      
-      
-
-    
-  ]
+  {
+    "blog": "0",
+    "name": "Parent",
+    "type": "Support Strategies",
+    "description": "Provides strategies and activities to help children manage their emotions and stay calm.",
+    "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "blog": "1",
+    "name": "Therapist",
+    "type": "Therapeutic Techniques",
+    "description": "Offers therapeutic approaches to support children in calming their minds and bodies.",
+    "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "blog": "2",
+    "name": "Educator",
+    "type": "Classroom Management",
+    "description": "Equips educators with tools and techniques to assist children in managing their emotions and staying focused in the classroom.",
+    "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  }
+]

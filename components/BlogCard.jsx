@@ -6,7 +6,7 @@ const BlogCard = ({ blog, service }) => {
   return (
     <div className="rounded-xl shadow-md relative">
       <Image
-        src={`/images/services/${[1]}`}
+       src={`/images/services/${blog.images[1]}`}
         alt=""
         width={120}
         height={120}
@@ -25,7 +25,7 @@ const BlogCard = ({ blog, service }) => {
             href={`/blogs/${blog._id}`}
             className="h-[36px] bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-center text-sm"
           >
-            Details
+            Learn more
           </Link>
         </div>
       </div>
