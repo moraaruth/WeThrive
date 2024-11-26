@@ -5,7 +5,7 @@ const ServiceCard = ({service}) => {
     return ( 
         <div className="rounded-xl shadow-md relative">
         <Image
-          src="images/properties/a1.jpg"
+          src={`images/services/${service.images[0]}`}
           alt=""
           className="w-full h-auto rounded-t-xl"
         />
