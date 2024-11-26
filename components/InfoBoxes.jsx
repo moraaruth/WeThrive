@@ -17,7 +17,11 @@ const InfoBoxes = () => {
           </InfoBox>
           <InfoBox
             heading="Therapy session"
-            buttonInfo={{ text: 'Book a Session' }}
+            buttonInfo={{
+                text: 'Book a session',
+                link: '/session',
+                backgroundColor: 'bg-blue-500',
+              }}
             backgroundColor="bg-blue-100"
           >
             {' '}
