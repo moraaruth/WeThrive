@@ -13,10 +13,10 @@ const InfoBox = ({
        {children}
         </p>
         <Link
-          href="/therapist"
+          href={buttonInfo.link}
           className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
         >
-          Book therapist
+          {buttonInfo.text}
         </Link>
       </div>
      );
