@@ -16,7 +16,7 @@ const InfoBoxes = () => {
             Find a therapist around you. Bookmark therapist and contact.
           </InfoBox>
           <InfoBox
-            heading="Therapy session"
+            heading="Session"
             buttonInfo={{
                 text: 'Book a session',
                 link: '/session',
