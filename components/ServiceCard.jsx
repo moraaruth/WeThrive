@@ -1,11 +1,23 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
 import {FaMoneyBill, FaMapMarker} from "react-icons/fa"
+
+
 const ServiceCard = ({service}) => {
+    const getRateDisplay = () => {
+        const { rates } = service;
+        if (rates.monthly) {
+            return `$${rates.monthly.toLocaleString()}/mo`
+
+        } else if (rates.weekly){
+            return `$${rates.weekly.toLocaleString()}/wk`
+        }
+    }
     return ( 
         <div className="rounded-xl shadow-md relative">
         <Image
-          src={`/images/services/${service.images[0]}`}
+          src={`/images/services/${service.images[1]}`}
           alt=""
           width={120}
           height={120}
@@ -20,7 +32,7 @@ const ServiceCard = ({service}) => {
           <h3
             className="absolute top-[10px] right-[10px] bg-white px-4 py-2 rounded-lg text-blue-500 font-bold text-right md:text-center lg:text-right"
           >
-            ksh2,200/mo
+            { getRateDisplay() }
           </h3>
 
                  <div
