@@ -52,31 +52,6 @@
     
       {
         "service": "3",
-        "name": "Physiotherapy",
-        "type": "stability",
-        "description": "This is helps a child learn how to walk, sit and have strong bones",
-        "location": {
-          "constituency": "KISE",
-          "city": "Nairobi"
-       
-        },
-        
-        "rates": {
-          "weekly": 500,
-          "monthly": 2000
-        },
-        "booking": {
-          "name": "John Doe",
-          "email": "john@gmail.com",
-          "phone": "12345678"
-        },
-        "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
-        "is_featured": false,
-        "createdAt": "2024-01-01T00:00:00.000Z",
-        "updatedAt": "2024-01-01T00:00:00.000Z"
-      },
-      {
-        "service": "4",
         "name": "Occupational therapy",
         "type": "Fine motor skills",
         "description": "This is helps a child improve in fine motor skills and concentration",
