@@ -7,13 +7,16 @@ import spectrums from '@/spectrums.json'
 
 const HomeServices = () => {
   const recentServices = services.slice(0, 3)
+  const recentSpectrums = spectrums.slice(0, 3)
+  const recentServices = services.slice(0, 3)
+
   return (
     <section className="px-4 py-6">
       <div className="container-xl lg:container m-auto px-4 py-6">
         <h2 className="text-3xl font-bold text-blue-500 mb-6 text-center">
         Living on the Spectrum: Stories and Insights
         </h2>
-        {spectrums.length === 0 ? (
+        {recentSpectrums.length === 0 ? (
           <p>No spectrum found</p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -42,7 +45,7 @@ const HomeServices = () => {
         <h2 className="text-3xl font-bold text-blue-500 mb-6 text-center">
           Autism Information and support{' '}
         </h2>
-        {blogs.length === 0 ? (
+        {recrentBlogs.length === 0 ? (
           <p>No service found</p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
