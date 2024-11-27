@@ -104,7 +104,7 @@ const [isLoggedIn, setIsLoggedIn] = useState(false)
                     Get Involved
                   </Link>
                   <Link
-                    href="/blog"
+                    href="/blogs"
                     className={`${pathname === '/blog' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
                   >
                     Blog
