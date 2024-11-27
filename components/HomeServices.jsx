@@ -8,7 +8,7 @@ import spectrums from '@/spectrums.json'
 const HomeServices = () => {
   const recentServices = services.slice(0, 3)
   const recentSpectrums = spectrums.slice(0, 3)
-  const recentServices = services.slice(0, 3)
+  const recentBlogs = blogs.slice(0, 3)
 
   return (
     <section className="px-4 py-6">
