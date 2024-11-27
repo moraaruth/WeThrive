@@ -6,7 +6,7 @@ import SpectrumCard from './SpectrumCard'
 import spectrums from '@/spectrums.json'
 
 const HomeServices = () => {
-  const recentService = services.slice(0, 3)
+  const recentServices = services.slice(0, 3)
   return (
     <section className="px-4 py-6">
       <div className="container-xl lg:container m-auto px-4 py-6">
@@ -27,7 +27,7 @@ const HomeServices = () => {
         <h2 className="text-3xl font-bold text-blue-500 mb-6 text-center">
           Find autism services in your community
         </h2>
-        {services.length === 0 ? (
+        {recentServices.length === 0 ? (
           <p>No service found</p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
