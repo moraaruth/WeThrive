@@ -93,7 +93,7 @@ const [isLoggedIn, setIsLoggedIn] = useState(false)
                   </Link>
                   <Link
                     href="/services"
-                    className={`${pathname === '/programs' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                    className={`${pathname === '/services' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
                   >
                     Services
                   </Link>
@@ -105,7 +105,7 @@ const [isLoggedIn, setIsLoggedIn] = useState(false)
                   </Link>
                   <Link
                     href="/blogs"
-                    className={`${pathname === '/blog' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                    className={`${pathname === '/blogs' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
                   >
                     Blog
                   </Link>
