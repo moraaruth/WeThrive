@@ -1,4 +1,5 @@
 import Link from "next/link";
+import {FaExclamationTriangle } from 'react-icons/fa'
 const NotFoundPage = () => {
     
     return ( 
@@ -8,6 +9,7 @@ const NotFoundPage = () => {
             className="bg-white px-6 py-24 mb-4 shadow-md rounded-md border m-4 md:m-0"
           >
             <div className="flex justify-center">
+                <FaExclamationTriangle className="text-yellow-400 text-8xl fa-5x"/>
               <i
                 className="fas fa-exclamation-triangle fa-5x text-8xl text-yellow-400"
               ></i>
