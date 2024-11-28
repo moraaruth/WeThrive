@@ -22,7 +22,7 @@ const HomeServices = () => {
           <p>No spectrum found</p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {spectrums.map((spectrum) => (
+            {recentSpectrums.map((spectrum) => (
               <SpectrumCard key={spectrum._id} spectrum={spectrum} />
             ))}
           </div>
@@ -36,7 +36,7 @@ const HomeServices = () => {
           <p>No service found</p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {services.map((service) => (
+            {recentServices.map((service) => (
               <ServiceCard key={service._id} service={service} />
             ))}
           </div>
@@ -51,7 +51,7 @@ const HomeServices = () => {
           <p>No service found</p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {blogs.map((blog) => (
+            {recentBlogs.map((blog) => (
               <BlogCard key={blog._id} blog={blog} />
             ))}
           </div>
