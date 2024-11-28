@@ -4,6 +4,7 @@ import ServiceCard from './ServiceCard'
 import blogs from '@/blogs.json'
 import SpectrumCard from './SpectrumCard'
 import spectrums from '@/spectrums.json'
+import Link from 'next/link'
 
 const HomeServices = () => {
   const recentServices = services.slice(0, 3)
@@ -61,6 +62,10 @@ const HomeServices = () => {
       
     </section>
     <section className='m-auto max-w-lg my-10 px-6'>
+      <Link href='/services' 
+      className="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700 ">
+        View all services
+      </Link>
 
     </section>
     </>

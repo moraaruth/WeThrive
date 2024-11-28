@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Hiring = () => {
     return (
-      <section className="bg-blue-700 py-20 mb-4">
+      <section className="bg-blue-700 py-20 my-10 mb-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center md:items-start">
           {/* Left Image */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-start mb-6 md:mb-0">
