@@ -74,6 +74,82 @@
         "is_featured": false,
         "createdAt": "2024-01-01T00:00:00.000Z",
         "updatedAt": "2024-01-01T00:00:00.000Z"
-      }
+      },
+      {
+        "service": "4",
+        "name": "Hydrotherapy",
+        "type": "Hyperactivity",
+        "description": "This is helps a child calm down and relax",
+        "location": {
+          "constituency": "KISE",
+          "city": "Nairobi"
+       
+        },
+        
+        "rates": {
+          "weekly": 500,
+          "monthly": 2000
+        },
+        "booking": {
+          "name": "John Doe",
+          "email": "john@gmail.com",
+          "phone": "12345678"
+        },
+        "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+        "is_featured": false,
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+          "service": "5",
+          "name": "Speech therapy",
+          "type": "Speech and vocabulary",
+          "description": "This is helps a child learn new words and express himself or herself",
+          "location": {
+            "constituency": "Donholm",
+            "city": "Nairobi"
+         
+          },
+          
+          "rates": {
+            "weekly": 500,
+            "monthly": 2000
+          },
+          "booking": {
+            "name": "John Doe",
+            "email": "john@gmail.com",
+            "phone": "12345678"
+          },
+          "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+          "is_featured": false,
+          "createdAt": "2024-01-01T00:00:00.000Z",
+          "updatedAt": "2024-01-01T00:00:00.000Z"
+        },
+      
+        {
+          "service": "6",
+          "name": "Occupational therapy",
+          "type": "Fine motor skills",
+          "description": "This is helps a child improve in fine motor skills and concentration",
+          "location": {
+            "constituency": "Donholm",
+            "city": "Nairobi"
+         
+          },
+          
+          "rates": {
+            "weekly": 500,
+            "monthly": 2000
+          },
+          "booking": {
+            "name": "John Doe",
+            "email": "john@gmail.com",
+            "phone": "12345678"
+          },
+          "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+          "is_featured": false,
+          "createdAt": "2024-01-01T00:00:00.000Z",
+          "updatedAt": "2024-01-01T00:00:00.000Z"
+        }
 
   ]

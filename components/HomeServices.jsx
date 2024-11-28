@@ -64,7 +64,7 @@ const HomeServices = () => {
     <section className='m-auto max-w-lg my-10 px-6'>
       <Link href='/services' 
       className="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700 ">
-        View all services
+        View All Services
       </Link>
 
     </section>
