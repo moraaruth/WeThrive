@@ -16,7 +16,10 @@ try {
     connected = true
     
 } catch (error) {
+    console.log(error);
     
 }
 
 }
+
+export default connectDB;
