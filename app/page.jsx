@@ -3,6 +3,7 @@ import HomeServices from "@/components/HomeServices";
 import InfoBoxes from "@/components/InfoBoxes";
 import Hiring from "@/components/Hiring"
 const HomePage = () => {
+    console.log(process.env.MONGODB_URI)
     return ( 
     <>
         <Hero />
