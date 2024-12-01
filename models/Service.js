@@ -37,6 +37,10 @@ const ServiceSchema = new Schema({
         required: true,
         trim: true,
     },
+    isFeatured: {
+        type: Boolean,
+        default: false,
+    },
     isActive: {
         type: Boolean,
         default: true,
