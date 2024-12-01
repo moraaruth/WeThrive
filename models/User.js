@@ -5,5 +5,23 @@ const UserSchema = new Schema({
         type: String,
         unique: [true, 'Email already exists'],
         required: [true, 'Email is required']
-    }
-})
+    },
+    username: {
+        type: String,
+        required: [true, 'Username is required']
+    },
+    image: {
+        type: String
+    },
+    bookmarks: [
+        {
+            item: { type: Schema.Types.ObjectId, required: true },
+            model: {
+                type: String,
+                required: true,
+                enum: ['Service', 'Blog', 'Spectrum']
+            }
+        }
+    ]
+
+});
