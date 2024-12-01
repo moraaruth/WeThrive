@@ -1,6 +1,11 @@
 import { Schema, model, models } from 'mongoose';
 
 const SupportSchema = new Schema({
+    owner: {
+        type: Schema.Types.ObjectId,
+        ref: 'User',
+        required: true
+    },
     blog: {
         type: String,
         required: true,
