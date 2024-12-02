@@ -1,5 +1,7 @@
 import services from '@/services.json'
 import ServiceCard from '@/components/ServiceCard'
+import connectDB from '@/config/database'
+import Service from '@/models/Service'
 import BlogCard from '@/components/BlogCard'
 import blogs from '@/blogs.json'
 const Services = () => {
