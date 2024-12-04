@@ -50,7 +50,6 @@ const ServiceSchema = new Schema({
         default: Date.now,
     },
 });
-
 const Service = models.Service || model('Service', ServiceSchema);
 
 export default Service;

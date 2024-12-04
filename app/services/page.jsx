@@ -1,10 +1,10 @@
-import services from '@/services.json'
 import ServiceCard from '@/components/ServiceCard'
 import connectDB from '@/config/database'
 import Service from '@/models/Service'
-import BlogCard from '@/components/BlogCard'
-import blogs from '@/blogs.json'
-const Services = () => {
+
+const Services = async () => {
+  await connectDB();
+  const services = await Service.find({});
   return (
     <section className="px-4 py-6">
       <div className="container-xl lg:container m-auto px-4 py-6">

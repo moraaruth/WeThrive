@@ -1,13 +1,16 @@
-import services from '@/services.json'
+
 import BlogCard from './BlogCard'
 import ServiceCard from './ServiceCard'
 import blogs from '@/blogs.json'
 import SpectrumCard from './SpectrumCard'
 import spectrums from '@/spectrums.json'
 import Link from 'next/link'
+import connectDB from '@/config/database'
+import Service from '@/models/Service'
 
-const HomeServices = () => {
-  const recentServices = services.slice(0, 3)
+const HomeServices = async () => {
+  await connectDB()
+  const recentServices = Service.find({}).sort({createdAt: -1}).limit(3).lean();
   const recentSpectrums = spectrums.slice(0, 3)
   const recentBlogs = blogs.slice(0, 3)
 
