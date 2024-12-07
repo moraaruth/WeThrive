@@ -3,19 +3,14 @@ import ServiceCard from './ServiceCard'
 import blogs from '@/blogs.json'
 import SpectrumCard from './SpectrumCard'
 import spectrums from '@/spectrums.json'
+import services from '@/service.json'
 import Link from 'next/link'
-import connectDB from '@/config/database'
-import Service from '@/models/Service'
+// import connectDB from '@/config/database'
+// import Services from '@/models/Service'
 
 const HomeServices = async () => {
-  await connectDB();
-  let recentServices = [];
-  try {
-    recentServices = await Service.find({}).sort({ createdAt: -1 }).limit(3).lean();
-    console.log('Fetched services:', recentServices);
-  } catch (error) {
-    console.error('Error fetching services:', error);
-  }
+  // await connectDB();
+  const recentServices = services.slice(0, 3)
   const recentSpectrums = spectrums.slice(0, 3)
   const recentBlogs = blogs.slice(0, 3)
 
@@ -45,7 +40,7 @@ const HomeServices = async () => {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {recentServices.map((service) => (
-              <ServiceCard key={index} service={service} />
+              <ServiceCard key={service._id} service={service} />
             ))}
           </div>
         )}
