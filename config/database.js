@@ -4,7 +4,7 @@ let connected = false;
 
 const connectDB = async () => {
   mongoose.set('strictQuery', true);
-  mongoose.set('bufferCommands', false);
+  
  
 
   // Validate environment variable
@@ -21,6 +21,7 @@ const connectDB = async () => {
   try {
     console.log('Connecting to MongoDB with a timeout of 50 seconds...');
     await mongoose.connect(process.env.MONGODB_URI, {
+      bufferCommands: false, 
       serverSelectionTimeoutMS: 50000,
       connectTimeoutMS: 50000,
     });
