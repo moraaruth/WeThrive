@@ -15,9 +15,16 @@ export default function AboutusCard() {
             </p>
           </div>
         </div>
-        <div>
+      
+      </section>
+      <section>
+      <div>
             <h1>Our Vision</h1>
             <p>We envision a world where every individual with autism has the opportunity to live a fulfilling and meaningful life.</p>
+        </div>
+        <div>
+            <h1>Our Mission</h1>
+            <p>Our mission is to empower individuals with autism by offering accessible programs, therapies, and resources while fostering a community of understanding and inclusion.</p>
         </div>
       </section>
     </>
