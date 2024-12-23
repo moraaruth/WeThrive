@@ -1,5 +1,11 @@
+import AboutusCard from "@/components/AboutusCard";
 const AboutUs = () => {
-    return ( <div>about us</div> );
+    return ( 
+   <>
+   <AboutusCard />
+   
+   </>
+    );
 }
  
 export default AboutUs;
