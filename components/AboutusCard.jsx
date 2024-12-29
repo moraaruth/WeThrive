@@ -18,14 +18,14 @@ export default function AboutusCard() {
       </section>
       <section>
         <div>
-          <h2 className="text-4xl font-extrabold text-gray-700 sm:text-3xl md:text-4xl">Our Vision</h2>
+          <h5 className="text-4xl font-extrabold text-gray-700 sm:text-3xl md:text-4xl">Our Vision</h5>
           <p>
             We envision a world where every individual with autism has the
             opportunity to live a fulfilling and meaningful life.
           </p>
         </div><br/>
         <div>
-          <h2 className="text-4xl font-extrabold text-gray-700  sm:text-3xl md:text-4xl">Our Mission</h2>
+          <h5 className="text-4xl font-extrabold text-gray-700  sm:text-3xl md:text-4xl">Our Mission</h5>
           <p>
             Our mission is to empower individuals with autism by offering
             accessible programs, therapies, and resources while fostering a
@@ -33,7 +33,7 @@ export default function AboutusCard() {
           </p>
         </div><br/>
         <div>
-          <h2 className="text-4xl font-extrabold text-gray-700  sm:text-3xl md:text-4xl">Our story</h2>
+          <h5 className="text-4xl font-extrabold text-gray-700  sm:text-3xl md:text-4xl">Our story</h5>
           <p>
             Every parent dreams of giving their child the best opportunities to
             succeed in life. When my son was diagnosed as being on the autism
