@@ -17,6 +17,8 @@ export const authOptions = {
     ],
     callbacks: {
         //invoked on successful sign in
-        
+        async signIn({profile}) {
+            
+        }
     }
 }
