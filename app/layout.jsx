@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import '@/assets/styles/globals.css';
+import AuthProvider from '@/components/AuthProvider';
 
 export const metadata = {
     title: 'we thrive',
@@ -9,7 +10,10 @@ export const metadata = {
 }
 
 const MainLayout = ({ children }) => {
-    return ( <html>
+    return (
+        <AuthProvider>
+        
+        <html>
         <body>
             <Navbar />
             <main>
@@ -17,7 +21,7 @@ const MainLayout = ({ children }) => {
             </main>
             <Footer />
         </body>
-    </html> );
+    </html></AuthProvider> );
 }
  
 export default MainLayout;
