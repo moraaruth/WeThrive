@@ -18,7 +18,16 @@ export const authOptions = {
     callbacks: {
         //invoked on successful sign in
         async signIn({profile}) {
-            
-        }
+            // connect to the database
+            //check if user exists
+            // if not, create user
+            //allow signin
+
+    
+
+        },
+        //session callback functions theat modifies the session object
+        async session ({ session }){}
+
     }
 }
