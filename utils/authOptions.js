@@ -27,7 +27,11 @@ export const authOptions = {
 
         },
         //session callback functions theat modifies the session object
-        async session ({ session }){}
+        async session ({ session }){
+            //get user from datbase
+            //assign user id from session
+            //return session
+        }
 
     }
 }
