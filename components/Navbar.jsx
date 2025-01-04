@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
@@ -19,6 +19,8 @@ const Navbar = () => {
   // number ="img
   // hamburger menu
   // active links
+
+  useEffect (() => { }, [])
   return (
     <>
       <nav className="bg-blue-700 border-b border-blue-500">
