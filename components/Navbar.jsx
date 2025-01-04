@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation'
 import logo from '@/assets/images/logo-white.png'
 import profileDefault from '@/assets/images/profile.png'
 import { FaGoogle } from 'react-icons/fa'
-import { sigIn, signOut, useSession, getProviders } from 'next-auth/react'
+import { sigIn, signOut, useSession, getProviders, signIn } from 'next-auth/react'
 
 const Navbar = () => {
   const { data: session } = useSession()
@@ -154,7 +154,10 @@ const Navbar = () => {
               <div className="flex items-center">
                 {providers && 
                 Object.values(providers).map((provider, index) => (
-                <button key={index} className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2">
+                <button 
+                key={index} 
+                onClick ={ () => signIn()}
+                className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2">
                   <FaGoogle className="text-white mr-2" />
 
                   <span>Login or Register</span>
