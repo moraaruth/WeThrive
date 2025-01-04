@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation'
 import logo from '@/assets/images/logo-white.png'
 import profileDefault from '@/assets/images/profile.png'
 import { FaGoogle } from 'react-icons/fa'
+import { sigIn, signOut, useSession, getProvider } from 'next-auth/react'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
