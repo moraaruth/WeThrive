@@ -24,8 +24,10 @@ const Navbar = () => {
   useEffect (() => { 
     const setAuthProviders = async () => {
       const res = await getProviders();
-      setProviders();
+      setProviders(res);
     }
+
+    setAuthProviders();
    }, [])
   return (
     <>
