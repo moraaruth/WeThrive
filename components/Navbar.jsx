@@ -153,8 +153,8 @@ const Navbar = () => {
             <div className="hidden md:block md:ml-6">
               <div className="flex items-center">
                 {providers && 
-                Object.values(providers).map((provider) => (
-                <button className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2">
+                Object.values(providers).map((provider, index) => (
+                <button key={index} className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2">
                   <FaGoogle className="text-white mr-2" />
 
                   <span>Login or Register</span>
