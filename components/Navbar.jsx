@@ -10,10 +10,8 @@ import { sigIn, signOut, useSession, getProvider } from 'next-auth/react'
 
 const Navbar = () => {
   const { data: session } = useSession()
-  console.log(session);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
-const [isLoggedIn, setIsLoggedIn] = useState(false)
   const pathname = usePathname();
   // authentication
   // dropdown
