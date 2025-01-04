@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation'
 import logo from '@/assets/images/logo-white.png'
 import profileDefault from '@/assets/images/profile.png'
 import { FaGoogle } from 'react-icons/fa'
-import { sigIn, signOut, useSession, getProvider } from 'next-auth/react'
+import { sigIn, signOut, useSession, getProviders } from 'next-auth/react'
 
 const Navbar = () => {
   const { data: session } = useSession()
@@ -20,7 +20,11 @@ const Navbar = () => {
   // hamburger menu
   // active links
 
-  useEffect (() => { }, [])
+  useEffect (() => { 
+    const setAuthProviders = async () => {
+      const res = await getProviders()
+    }
+   }, [])
   return (
     <>
       <nav className="bg-blue-700 border-b border-blue-500">
