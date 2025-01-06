@@ -42,7 +42,8 @@ export const authOptions = {
         },
         //session callback functions theat modifies the session object
         async session ({ session }){
-            //get user from datbase
+            //get user from database
+            const user = await User.findOne({email: session.user.email})
             //assign user id from session
             //return session
         }
