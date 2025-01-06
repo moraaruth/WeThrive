@@ -21,7 +21,9 @@ export const authOptions = {
         //invoked on successful sign in
         async signIn({profile}) {
             // connect to the database
+            await connectDB();
             //check if user exists
+            const userExists = await User.findOne();
             // if not, create user
             //allow signin
 
