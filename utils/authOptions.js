@@ -23,8 +23,12 @@ export const authOptions = {
             // connect to the database
             await connectDB();
             //check if user exists
-            const userExists = await User.findOne();
+            const userExists = await User.findOne({ email: profile.email });
             // if not, create user
+            if (!userExists){
+                //truncate username if too long
+                const username = profile.name.slice(0, 20);
+            }
             //allow signin
 
     
