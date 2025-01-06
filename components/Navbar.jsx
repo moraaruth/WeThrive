@@ -10,6 +10,7 @@ import { sigIn, signOut, useSession, getProviders, signIn } from 'next-auth/reac
 
 const Navbar = () => {
   const { data: session } = useSession()
+  console.log(session)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
   const pathname = usePathname();
